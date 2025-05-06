@@ -68,7 +68,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <p className="text-cyan-400 font-medium">2021 &mdash; 2023</p>
-                    <p>Worked in Nanoelectronics' design center</p>
+                    <p>Worked in Nanoelectronics&apos; design center</p>
                   </div>
                   <div>
                     <p className="text-cyan-400 font-medium">2018 &mdash; 2022</p>
