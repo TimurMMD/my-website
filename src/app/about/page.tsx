@@ -24,7 +24,8 @@ export default function AboutPage() {
             >
               <h2 className="text-4xl font-bold text-center text-cyan-400">About Me</h2>
               <p className="text-lg leading-relaxed text-justify">
-              {"As a Master of Science in Computer Science graduate, I specialize in Machine Learning, Artificial Intelligence, and Data Science, with expertise in Python, pandas, and deep learning frameworks like TensorFlow and PyTorch. I have led multiple projects in predictive modeling, data analysis, and visualization using tools such as Tableau and Power BI. Known for my adaptability, leadership, and critical thinking, I excel in bridging technical insights with business solutions. Passionate about solving complex problems, I’m eager to contribute to innovative projects in data science and AI."} </p>
+              As a Master of Science in Computer Science graduate, I specialize in Machine Learning, Artificial Intelligence, and Data Science, with expertise in Python, pandas, and deep learning frameworks like TensorFlow and PyTorch. I have led multiple projects in predictive modeling, data analysis, and visualization using tools such as Tableau and Power BI. Known for my adaptability, leadership, and critical thinking, I excel in bridging technical insights with business solutions. Passionate about solving complex problems, I&apos;m eager to contribute to innovative projects in data science and AI.
+              </p>
             </motion.div>
 
             {/* Image */}
@@ -62,16 +63,16 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-semibold text-cyan-300 mb-4">My Journey</h3>
                 <div className="border-l-2 border-cyan-400/30 pl-6 space-y-6">
                   <div>
-                    <p className="text-cyan-400 font-medium">2024 - 2025</p>
-                    <p>Master's in Computer Science – Singapore</p>
+                    <p className="text-cyan-400 font-medium">2024 &mdash; 2025</p>
+                    <p>Master&apos;s in Computer Science &mdash; Singapore</p>
                   </div>
                   <div>
-                    <p className="text-cyan-400 font-medium">2021 - 2023</p>
+                    <p className="text-cyan-400 font-medium">2021 &mdash; 2023</p>
                     <p>Worked in Nanoelectronics' design center</p>
                   </div>
                   <div>
-                    <p className="text-cyan-400 font-medium">2018 - 2022</p>
-                    <p>Bachelor’s Degree in Electronics and Nanoelectronics – Novosibirsk </p>
+                    <p className="text-cyan-400 font-medium">2018 &mdash; 2022</p>
+                    <p>Bachelor&apos;s Degree in Electronics and Nanoelectronics &mdash; Novosibirsk </p>
                   </div>
                 </div>
               </div>
@@ -96,7 +97,7 @@ export default function AboutPage() {
 
           {/* Quote */}
           <div className="italic text-center text-white/80 text-lg">
-          {'"All models are wrong, but some are useful." – George E.P. Box'}
+          &lsquo;All models are wrong, but some are useful.&rsquo; &mdash; George E.P. Box
           </div>
 
           

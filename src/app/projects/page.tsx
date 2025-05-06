@@ -57,7 +57,7 @@ export default function ProjectsPage() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-center text-white/80 max-w-3xl mx-auto mb-10"
         >
-          Here are some of the personal and academic projects I've worked on, focused on machine learning, data science, and real-world applications.
+          Here are some of the personal and academic projects I&apos;ve worked on, focused on machine learning, data science, and real-world applications.
         </motion.p>
 
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
