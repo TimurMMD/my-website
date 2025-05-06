@@ -1,7 +1,6 @@
 "use client";
 
 import AIBackground from "../components/AIBackground";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import TopRightNav from "../components/TopRightNav";
 
@@ -25,14 +24,7 @@ export default function AboutPage() {
             >
               <h2 className="text-4xl font-bold text-center text-cyan-400">About Me</h2>
               <p className="text-lg leading-relaxed text-justify">
-              As a Master of Science in Computer Science graduate, I specialize in Machine Learning, 
-Artificial Intelligence, and Data Science, with expertise in Python, pandas, and deep 
-learning frameworks like TensorFlow and PyTorch. I have led multiple projects in 
-predictive modeling, data analysis, and visualization using tools such as Tableau and 
-Power BI. Known for my adaptability, leadership, and critical thinking, I excel in 
-bridging technical insights with business solutions. Passionate about solving complex 
-problems, I’m eager to contribute to innovative projects in data science and AI.
-              </p>
+              {"As a Master of Science in Computer Science graduate, I specialize in Machine Learning, Artificial Intelligence, and Data Science, with expertise in Python, pandas, and deep learning frameworks like TensorFlow and PyTorch. I have led multiple projects in predictive modeling, data analysis, and visualization using tools such as Tableau and Power BI. Known for my adaptability, leadership, and critical thinking, I excel in bridging technical insights with business solutions. Passionate about solving complex problems, I’m eager to contribute to innovative projects in data science and AI."} </p>
             </motion.div>
 
             {/* Image */}
@@ -104,7 +96,7 @@ problems, I’m eager to contribute to innovative projects in data science and A
 
           {/* Quote */}
           <div className="italic text-center text-white/80 text-lg">
-            "All models are wrong, but some are useful." – George E.P. Box
+          {'"All models are wrong, but some are useful." – George E.P. Box'}
           </div>
 
           

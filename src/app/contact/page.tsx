@@ -20,9 +20,9 @@ export default function ContactPage() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h2 className="text-4xl font-bold text-cyan-400 mb-6">Let's Connect</h2>
+          <h2 className="text-4xl font-bold text-cyan-400 mb-6">{"Let's Connect"}</h2>
           <p className="text-white/80 mb-10 max-w-xl mx-auto text-lg">
-            I'd love to hear from you — whether it's about a collaboration, opportunity, or just to say hi! 😊
+            {"I'd love to hear from you — whether it's about a collaboration, opportunity, or just to say hi! 😊"}
           </p>
 
           <div className="flex flex-wrap justify-center gap-10">
